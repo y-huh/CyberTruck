@@ -1,0 +1,219 @@
+@font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v15-latin-500.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v15-latin-600.woff2') format('woff2'); 
+  }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Manrope";
+    transition: all 0.3s;
+
+}
+.site-header {
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header-wrapper {
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.header-logo {
+    margin-top: 50px;
+    
+}
+.header-text {
+    margin-top: 50px;
+font-size: 24px;
+font-weight: 400;
+line-height: 32.78px;
+
+}
+.header-wrapper :nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px;
+    width: 221px;
+    height: 54px;
+    border: 2px solid white;
+    transition: all 0.3s;
+    
+    
+}
+.order-now{
+color: white;
+    font-family: "Manrope";
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+
+
+}
+.order-now:hover{
+    background-color: white;
+    color: #161329;
+
+
+}
+
+.container {
+ width: 1440px;
+ padding: 0 10px;
+}
+main{
+    background-color: black;
+    padding: 0 10px;
+}
+.exosceletion {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+}
+
+.exosceletion-wrapper {
+    width: 528px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.exosceletion-content{
+    display: flex;
+justify-content: space-between;
+}
+
+.exosceletion-title {
+font-size: 28px;
+font-weight: 600;
+line-height: 38.25px;
+text-align: left;
+
+    color: white;
+}
+.exosceletion-text{
+    color: white;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+}
+.exosceletion-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    
+}
+.exosceletion-img{
+
+}
+.exosceletion-items2{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+.utility-section {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+}
+.utility-wrapper {
+    width: 972px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 140px;
+}
+.utility-title {
+font-size: 28px;
+font-weight: 600;
+line-height: 38.25px;
+
+    color: white;
+}
+.utility-yext {
+    color: white;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+}
+.utility-img {
+    margin-left: 140px;
+}
+.utility-items {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 42px;
+}
+.storage-section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.storage-section-two {
+    background-image: url(../images/utility-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer {
+    transition: all 0.3s;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.container {
+}
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-wrapper > a{
+    transition: all 0.3s;
+
+}
